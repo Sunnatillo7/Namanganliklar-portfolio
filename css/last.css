@@ -1,0 +1,390 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* rubik-700 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Rubik' sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+/* .header-section {
+    background: #F6F6F6;
+} */
+/* Header top */
+.logo {
+    border-radius: 7px;
+}
+
+.inp {
+    padding: 15px 0 15px 20px;
+    background-image: url("./images/search.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 17px;
+    background-size: 15px 15px;
+    padding-left: 41px;
+    width: 275px;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8D8D8D;
+    border-radius: 60px;
+    border: none;
+    margin: 25px 0;
+    margin-right: 25px;
+
+
+}
+
+.lang {
+    margin-right: 25px;
+}
+
+.welcome {
+    width: 90px;
+    height: 45px;
+    background: #7296EC;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F6F6F6;
+
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.inp-div {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: #2959CE;
+}
+
+.logo-div>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.first-param {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* /Header top */
+
+/* Navigation section */
+.list-items {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.list-item+.list-item {
+    margin-left: 45px;
+}
+
+/* /Navigation section */
+
+
+/* Forms section */
+.forms {
+    width: 655px;
+}
+
+.main-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.forms>h3 {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.inp-mini {
+    margin-top: 20px;
+    width: 320px;
+    height: 45px;
+    outline: none;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.inp-mini+.inp-mini {
+    margin-left: 10px;
+}
+
+.mails {
+    outline: none;
+    display: block;
+    width: 655px;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.5;
+
+}
+
+.area {
+    width: 655px;
+    height: 150px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.btn55>button {
+    width: 140px;
+    height: 45px;
+    background: #7297EF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.btn55 {
+    text-align: end;
+}
+
+.emails {
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 450px;
+    background: #F6F6F6;
+    border-radius: 10px;
+    margin-top: 95px;
+    margin-left: 10px;
+
+}
+
+.emails>h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.emails>p>a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.emails>address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.numm {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.linee {
+    display: block;
+    width: 400px;
+    height: 2px;
+    border: 1px solid #D2D2D2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer section */
+footer {
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    padding-top: 40px;
+    background-color: #7297EF;
+    ;
+}
+
+.footer-list-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-footer>p {
+    width: 220px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.list-footer>h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.list-foot-2>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.param77+.param77 {
+    margin-top: 20px;
+}
+
+.line-7 {
+    display: inline-block;
+    margin-top: 30px;
+     margin-left: 90px;
+    width: 1000px;
+    text-align: center;
+    height: 2px;
+    background: #CECECE;
+}
+
+.last-text {
+    margin-left: 90px;
+    width: 140px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.main-icon{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.list-icon + .list-icon{
+    margin-left: 15px;
+}
+.icon-div{
+    width: 100%;
+    
+   
+}
+
+/* /Footer section */
